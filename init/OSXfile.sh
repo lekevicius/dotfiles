@@ -685,8 +685,8 @@ defaults write com.google.Chrome ExtensionInstallSources -array "https://gist.gi
 # -------------------------
 
 # Install Sublime Text settings
-cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Preferences.sublime-settings 2> /dev/null
-cp -r init/Default\ (OSX).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/Default\ (OSX).sublime-keymap 2> /dev/null
+cp -r init/Preferences.sublime-settings ~/Library/Application\ Support/Sublime\ Text*/Packages/User/ 2> /dev/null
+cp -r init/Default\ \(OSX\).sublime-keymap ~/Library/Application\ Support/Sublime\ Text*/Packages/User/ 2> /dev/null
 
 
 
