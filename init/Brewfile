@@ -1,0 +1,18 @@
+update
+upgrade
+
+install coreutils # Install GNU core utilities (those that come with OS X are outdated)
+install findutils # Install GNU `find`, `locate`, `updatedb`, and `xargs`, g-prefixed
+
+install wget --enable-iri
+
+install fish
+install ack
+install git
+install imagemagick
+install node
+install tree
+
+tap homebrew/versions
+
+cleanup

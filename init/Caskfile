@@ -1,0 +1,30 @@
+install brew-cask
+tap phinze/homebrew-cask
+
+cask install dropbox
+cask install google-drive
+cask install google-hangouts
+cask install the-archive-browser
+cask install hazel
+cask install cloud
+cask install launchbar
+cask install bartender
+
+cask install sublime-text
+cask install tower
+cask install charles
+cask install dash
+cask install kaleidoscope
+
+cask install google-chrome
+cask install daisydisk
+cask install omnifocus
+cask install sketch
+cask install skype
+cask install slack
+cask install spotify
+cask install steam
+cask install tor-browser
+cask install transmission
+cask install movist
+cask install onepassword
