@@ -15,6 +15,7 @@ cask install tower
 cask install charles
 cask install dash
 cask install kaleidoscope
+cask install blender
 
 cask install google-chrome
 cask install daisydisk
