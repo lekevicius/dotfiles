@@ -89,7 +89,7 @@ alias urlencode='python -c "import sys, urllib as ul; print ul.quote_plus(sys.ar
 
 # Merge PDF files
 # Usage: `mergepdf -o output.pdf input{1,2,3}.pdf`
-alias mergepdf='/System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py'
+function mergepdf; /System/Library/Automator/Combine\ PDF\ Pages.action/Contents/Resources/join.py; end
 
 # Disable Spotlight
 alias spotoff="sudo mdutil -a -i off"
@@ -120,7 +120,7 @@ alias pumpitup="osascript -e 'set volume 7'"
 alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 
 # Lock the screen (when going AFK)
-alias afk="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
+function afk; /System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend; end
 
 # Faster npm for europeans
 alias npme="npm --registry http://registry.npmjs.eu"
