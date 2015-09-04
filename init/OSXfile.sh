@@ -745,3 +745,8 @@ for app in "Activity Monitor" "Address Book" "Calendar" "Contacts" "cfprefsd" \
 	killall "${app}" > /dev/null 2>&1
 done
 echo "Done. Note that some of these changes require a logout/restart to take effect."
+
+
+
+
+# defaults write com.bohemiancoding.sketch3 nudgeDistanceBig -float 8.0
